@@ -1,0 +1,258 @@
+$Fonts-color : ("dim" : #C7C3C3,
+   "black" : #b24a05,
+   "light" : #978445,
+   "grey" : #383838,
+   "red" : red,
+   "blue" : #FA3B11,
+   "footer" : #db9405);
+$BG-color : ("dim" : #a2895df2,
+   "black" : #30594e,
+   "footer" : #924200,
+   "nav" : #a22401,
+   "white" : #121212,
+   "bright" : #7e2a07,
+   "light" : #c3c2c2,
+   "radial" : #c06a01,
+   "empty" : #ffffff00,
+   "red" : #1f4975);
+
+
+@mixin flex($direction, $position , $base, $gap, $grow ) {
+   display: flex;
+   flex-flow: $direction;
+   justify-content: $position;
+   flex-basis: $base;
+   gap: $gap;
+   flex-grow: $grow;
+}
+
+@mixin size($width, $height) {
+   width: $width;
+   height: $height;
+}
+
+::selection {
+   background-color: #989898;
+   color: rgb(7, 61, 92)
+}
+
+
+.About-container {
+   background: map-get($BG-color, "white");
+   @include flex(row wrap, flex-start, 100%, 0rem, 0);
+   @include size(100%, max-content);
+   overflow: hidden;
+
+   .routes {
+      @include size(100%, 50px);
+
+
+
+      &>.returns {
+         @include flex(row, space-between, 100%, 0rem, 0);
+         padding-inline: 5rem 5rem;
+         box-sizing: border-box;
+         background: map-get($BG-color, "nav");
+         background: #171717;
+
+         P {
+
+            &>a {
+               text-decoration: none;
+               cursor: pointer;
+               color: map-get($Fonts-color, "light");
+               font: normal 100 15px inclusiv;
+            }
+
+            &>.left {
+               background: url(../icon/iconmonstr-angel-left-thin.svg) no-repeat center center / contain border-box;
+               padding: 0.50rem;
+               margin-right: 10px;
+            }
+
+            &>.right {
+               background: url(../icon/iconmonstr-angel-right-thin.svg) no-repeat center center / contain border-box;
+               padding: 0.50rem;
+               margin-left: 10px;
+            }
+         }
+      }
+   }
+
+   &>.conatiner-1 {
+      flex-basis: 100%;
+      padding: 2.9rem 5rem;
+      box-sizing: border-box;
+      background: map-get($BG-color, "black");
+      background: linear-gradient(to left, #00000078, #000000d8, #000), url(../images/light.png) no-repeat center center / cover border-box;
+
+
+
+      &>.header-banner {
+         @include size(100%, max-content);
+
+         &>.text-info>.detail {
+            @include size(200px, max-content);
+
+            &>.feild {
+               border: 1px solid #b24a05;
+               padding: 6px 11px;
+               margin-right: 1rem;
+               box-sizing: border-box;
+               border-radius: 5px;
+               font: normal 100 14.4px inclusiv;
+               color: map-get($Fonts-color, "light");
+
+            }
+
+            &>.time {
+               font: normal 100 14.5px inclusiv;
+               color: map-get($Fonts-color, "light");
+            }
+         }
+      }
+
+      .main-topic {
+         padding: 1rem 0;
+         box-sizing: border-box;
+
+         &>h1 {
+            margin: 0;
+            font: normal 400 5rem bloverly;
+            color: map-get($Fonts-color, "light");
+
+            &>.topic {
+               font: italic 200 2.5rem bloverly;
+               color: map-get($Fonts-color, "light");
+            }
+         }
+      }
+
+      .portfolio {
+         @include flex(row, flex-start, 100%, 0rem, 0);
+         align-items: center;
+
+         .image-wrap {
+            @include size(60px, 60px);
+            box-sizing: border-box;
+            display: inline-block;
+            background: rgb(202, 202, 202);
+            border-radius: 500px;
+            padding: 1px;
+            margin-right: 1rem;
+
+            &>img {
+               object-fit: cover;
+               object-position: center;
+               @include size(100%, 100%);
+               border-radius: 500px;
+            }
+         }
+
+         &>.name {
+            font: normal 100 14.5px inclusiv;
+            display: inline-block;
+            color: map-get($Fonts-color, "light");
+
+            &>.date {
+               display: inline-block;
+               color: map-get($Fonts-color, "light");
+
+
+               &>.link {
+                  text-decoration: none;
+                  color: seagreen;
+                  color: map-get($Fonts-color, "black");
+               }
+            }
+         }
+
+      }
+
+
+      &>h1 {
+         font: normal 200 7rem bloverly;
+         text-align: center;
+         color: orange;
+      }
+
+      .rout-links {
+         position: relative;
+         transform: translate(-50px, -9px);
+         padding: 0.30rem;
+         box-sizing: border-box;
+
+
+         &>ul {
+            @include flex(row, flex-start, 100%, 7rem, 0);
+
+            &>li {
+               list-style: none;
+
+               &>a {
+                  text-decoration: none;
+                  cursor: pointer;
+                  font-size: 17.2px;
+                  color: #505050;
+
+
+                  &:hover {
+                     color: #070707;
+                     transition: all .4s linear;
+                  }
+               }
+
+
+            }
+         }
+      }
+   }
+
+   &>.conatiner-2 {
+      @include size(100%, max-content);
+      background: map-get($BG-color, "white");
+      @include flex(column, center, 100%, 0rem, 0);
+      align-items: center;
+      padding: 3rem 8rem;
+      box-sizing: border-box;
+      border: 1px solid #978445;
+
+      &::-webkit-scrollbar {
+         display: none;
+      }
+
+      &>h3 {
+         @include size(550px, 190px);
+         font: normal 200 3.2rem bloverly;
+         line-height: 1.2em;
+         color: map-get($Fonts-color, "black");
+         margin-bottom: 10px;
+
+      }
+
+      .line {
+         display: block;
+         @include size(100%, 1px);
+         margin-bottom: 50px;
+      }
+
+      &>p {
+         font-size: 17.2px;
+         line-height: 1.8em;
+         color: map-get($Fonts-color, "black");
+         @include size(800px, max-content);
+
+
+      }
+
+      .intro::first-letter {
+         color: rgb(175, 175, 175);
+         font-size: 4rem;
+         margin-right: 10px;
+         border: 1px solid #978445;
+         padding: 1rem;
+         box-sizing: border-box;
+         float: left;
+      }
+   }
+}

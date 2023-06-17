@@ -1,0 +1,276 @@
+$Fonts-color : ("dim" : #C7C3C3,
+   "black" : #111111,
+   "light" : #d5d5d5,
+   "white" : #8e8b8a,
+   "grey" : #383838,
+   "red" : rgb(186, 186, 185),
+   "blue" : #FA3B11,
+   "footer" : #db9405);
+$BG-color : ("dim" : #a2895df2,
+   "black" : #161515,
+   "footer" : #924200,
+   "nav" : #1c1b1b,
+   "white" : #121212,
+   "bright" : #7e2a07,
+   "light" : #c3c2c2,
+   "radial" : #c06a01,
+   "empty" : #ffffff00,
+   "red" : #1f4975);
+
+
+@mixin flex($direction, $position , $base, $gap, $grow ) {
+   display: flex;
+   flex-flow: $direction;
+   justify-content: $position;
+   flex-basis: $base;
+   gap: $gap;
+   flex-grow: $grow;
+}
+
+@mixin size($width, $height) {
+   width: $width;
+   height: $height;
+}
+
+.project-container {
+   background: map-get($BG-color, "bright");
+   @include size(100%, 100vh);
+
+   .rout-links {
+      position: relative;
+      padding: 0.30rem;
+      box-sizing: border-box;
+
+      & > ul {
+         @include flex(row,space-between, 100%,0rem ,0 );
+         padding-inline: 5rem 5rem;
+         box-sizing: border-box;
+         & > li{
+            list-style: none;
+            & > a {
+               text-decoration: none;
+               cursor: pointer;
+               color: #888888;
+               font: normal 100 15px inclusiv;
+
+
+               &:hover {
+                  color: #ebeaea ;
+                  transition: all .4s linear;
+               }
+            }
+
+
+         }
+      }
+   }
+
+   .quote-animation {
+      @include flex(row, flex-start, 100%, 0rem, 0);
+      align-items: center;
+      @include size(100%, 50px);
+      background:map-get($BG-color, "radial");
+      padding-left: 3rem;
+      box-sizing: border-box;
+
+      &>h4 {
+         margin: 0;
+         font: normal 200 1.5rem merlux;
+         text-transform: uppercase;
+         white-space: nowrap;
+         animation: quote 50s linear infinite;
+      }
+
+      @keyframes quote {
+         from {
+            transform: translate(0);
+
+         }
+
+         to {
+            transform: translate(-3000px);
+            transition: all .5s linear;
+         }
+      }
+   }
+
+   .header-wrapper {
+      @include size(100%, 250px);
+      @include flex(row, center, 100%, 4rem, 0);
+      background: map-get($BG-color, "bright");
+      padding: 2.5rem 0rem;
+      box-sizing: border-box;
+
+
+      .information {
+         @include size(450px, 400px);
+
+         &>p {
+            font: normal 100 15px inclusiv;
+            line-height: 1.7em;
+            color: map-get($Fonts-color, "white");
+
+         }
+      }
+   }
+
+   .project-wrapper {
+      @include size(100%, max-content);
+      @include flex(row wrap, center, 100%, 5rem, 0);
+      box-sizing: border-box;
+      background:map-get($BG-color, "bright");
+
+      &>.col {
+         padding: 2rem 2.5rem;
+         box-sizing: border-box;
+         @include flex(row wrap, center, 100%, 5rem, 0);
+         @include size(100%, max-content);
+
+         &>.project {
+            @include size(1000px, max-content);
+            background: map-get($BG-color, "black");
+            border-radius: 10px;
+            padding: 2rem;
+            box-sizing: border-box;
+
+            &>img {
+               @include size(100%, 100%);
+               cursor: pointer;
+            }
+         }
+
+         .work-info {
+            @include size(200px, max-content);
+
+            &>.number {
+               color: map-get($Fonts-color, "white");
+               font: normal 200 7rem bloverly;
+            }
+
+            &>P {
+               font-size: 1.3rem;
+               font-family: bloverly;
+               color: map-get($Fonts-color, "white");
+               cursor: pointer;
+
+               &:hover {
+                  color: #e5e4e4;
+                  transition: all .5s linear;
+               }
+            }
+         }
+
+
+      }
+
+   }
+
+   .project-footer {
+      @include size(100%, 300px);
+      @include flex(row wrap, center, 100%, 23.5rem, 0);
+      box-sizing: border-box;
+      background: map-get($BG-color, "white");
+      align-items: center;
+
+      &>.links {
+         @include size(760px, 300px);
+         padding: 2rem 10rem;
+         box-sizing: border-box;
+         background: map-get($BG-color, "white");
+
+         &>p {
+            font-size: 19px;
+            line-height: 1.7rem;
+            font-family: merlux;
+            color: map-get($Fonts-color, "white");
+            cursor: pointer;
+         }
+      }
+
+      .connection {
+         @include size(250px, 60px);
+         background: map-get($BG-color, "black");
+         padding: 1px;
+         overflow: hidden;
+         box-sizing: border-box;
+         border-radius: 70px;
+
+         &>p {
+            white-space: nowrap;
+            text-align: center;
+            padding-left: 2rem;
+            text-transform: uppercase;
+            position: relative;
+            top: -7px;
+            font-size: 1.5rem;
+            line-height: 1.7rem;
+            font-family: bloverly;
+            color: map-get($Fonts-color, "white");
+            cursor: pointer;
+
+
+
+            &>.hide-text {
+               opacity: 0;
+
+            }
+
+            &:hover>.hide-text {
+               opacity: 1;
+               transition: all .1s linear;
+               color: #929292;
+            }
+
+            &:hover {
+               animation: flow 10s linear infinite;
+               color: #929292;
+            }
+         }
+
+         @keyframes flow {
+            from {
+               transform: translate(-50px);
+               transition: all .7s linear;
+            }
+
+            to {
+               transform: translate(-800px);
+            }
+         }
+      }
+
+   }
+
+
+   &>.social-footer {
+      @include flex(row, center, 100%, 0, 0);
+      align-items: center;
+      background: map-get($BG-color, "bright");
+      padding-inline: 2rem 6rem;
+      box-sizing: border-box;
+      @include size(100%, 200px);
+
+      &>.social ul {
+         @include flex(row, space-between, 100%, 4rem, 0);
+
+         &>li {
+            list-style: none;
+
+            &>a {
+               font: normal 200 0.95rem bloverly;
+               letter-spacing: 1px;
+               cursor: pointer;
+               color: map-get($Fonts-color, "white");
+               text-decoration: none;
+
+               &:hover {
+                  color: #c96502;
+                  transition: all .4s linear;
+               }
+            }
+         }
+      }
+   }
+
+
+}
