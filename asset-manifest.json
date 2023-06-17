@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.9a4876c4.css",
+    "main.js": "/my-app/static/js/main.bc77f26d.js",
+    "static/media/noise.png": "/my-app/static/media/noise.70b51c65d67816f5c0d8.png",
+    "static/media/light.png": "/my-app/static/media/light.c1fe2094e7d14c384114.png",
+    "static/media/man.jpg": "/my-app/static/media/man.90450af8de0bba4500a5.jpg",
+    "static/media/projects.png": "/my-app/static/media/projects.8984d223890175b0ccdf.png",
+    "static/media/work.png": "/my-app/static/media/work.2832513eecd07ef668e1.png",
+    "static/media/pro.png": "/my-app/static/media/pro.49d947432574cb7ce1bd.png",
+    "static/media/bloverly.otf": "/my-app/static/media/bloverly.0328bd3e57f64ba778ec.otf",
+    "static/media/inclusivesans-regular.otf": "/my-app/static/media/inclusivesans-regular.c5c9bbfc4c86890fad70.otf",
+    "static/media/TuskerGrotesk-1600Semibold.otf": "/my-app/static/media/TuskerGrotesk-1600Semibold.74d2057761f3801329cf.otf",
+    "static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.otf": "/my-app/static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.fb232e793850e2ccd8a6.otf",
+    "index.html": "/my-app/index.html",
+    "static/media/iconmonstr-angel-left-thin.svg": "/my-app/static/media/iconmonstr-angel-left-thin.b74b51c4c35fb292f28d.svg",
+    "static/media/iconmonstr-angel-right-thin.svg": "/my-app/static/media/iconmonstr-angel-right-thin.b282d2fca8839e80178c.svg",
+    "main.9a4876c4.css.map": "/my-app/static/css/main.9a4876c4.css.map",
+    "main.bc77f26d.js.map": "/my-app/static/js/main.bc77f26d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a4876c4.css",
+    "static/js/main.bc77f26d.js"
+  ]
+}
