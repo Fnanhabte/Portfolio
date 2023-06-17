@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.9a4876c4.css",
-    "main.js": "/my-app/static/js/main.bc77f26d.js",
+    "main.js": "/my-app/static/js/main.a4d324bb.js",
     "static/media/noise.png": "/my-app/static/media/noise.70b51c65d67816f5c0d8.png",
     "static/media/light.png": "/my-app/static/media/light.c1fe2094e7d14c384114.png",
     "static/media/man.jpg": "/my-app/static/media/man.90450af8de0bba4500a5.jpg",
@@ -16,10 +16,10 @@
     "static/media/iconmonstr-angel-left-thin.svg": "/my-app/static/media/iconmonstr-angel-left-thin.b74b51c4c35fb292f28d.svg",
     "static/media/iconmonstr-angel-right-thin.svg": "/my-app/static/media/iconmonstr-angel-right-thin.b282d2fca8839e80178c.svg",
     "main.9a4876c4.css.map": "/my-app/static/css/main.9a4876c4.css.map",
-    "main.bc77f26d.js.map": "/my-app/static/js/main.bc77f26d.js.map"
+    "main.a4d324bb.js.map": "/my-app/static/js/main.a4d324bb.js.map"
   },
   "entrypoints": [
     "static/css/main.9a4876c4.css",
-    "static/js/main.bc77f26d.js"
+    "static/js/main.a4d324bb.js"
   ]
 }
