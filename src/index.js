@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: "/my-app",
+    path: "/fnandev",
     element: <App/>,
   },
 
