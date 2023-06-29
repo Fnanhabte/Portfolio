@@ -1,0 +1,78 @@
+$Fonts-color : ("dim" : #C7C3C3,
+   "black" : #fc6602,
+   "light" : #978445);
+$BG-color : ("dim" : #a2895df2,
+   "black" : #161a19,
+   );
+
+
+@mixin flex($direction, $position , $base, $gap, $grow ) {
+   display: flex;
+   flex-flow: $direction;
+   justify-content: $position;
+   flex-basis: $base;
+   gap: $gap;
+   flex-grow: $grow;
+}
+
+@mixin size($width, $height) {
+   width: $width;
+   height: $height;
+}
+
+
+
+.pagenotfound {
+      background: map-get($BG-color, "black" );
+      @include size(100%,100vh );
+      @include flex(row wrap, center, 100%, 0rem, 0);
+      align-items: center;
+
+      & > .page-wrapper {
+         flex-basis: 100%;
+         padding: 2rem;
+         box-sizing: border-box;
+
+         & > h1 {
+            text-align: center;
+            margin: 0;
+            font: italic 400 14rem bloverly;
+            color: map-get($Fonts-color, "light");
+         }
+
+         &>p {
+            text-align: center;
+            font-size: 17.2px;
+            font-family: bloverly;
+            line-height: 1.8em;
+            color: map-get($Fonts-color, "light");
+
+            & > a {
+               padding: 0.60rem 2rem;
+               box-sizing: border-box;
+               font: normal 200 0.96rem bloverly;
+               border-radius: 13px;
+               border-color: transparent;
+               cursor: pointer;
+               text-decoration: none;
+               color: #cb6403;
+            }
+         }
+
+         .first-text {
+            text-transform: uppercase;
+            color: #cb6403;
+         }
+
+      }
+
+      .footer {
+         & > p {
+            text-align: center;
+            font-size: 13.7px;
+            font-family: bloverly;
+            line-height: 1.8em;
+            color: #747372;
+         }
+      }
+}

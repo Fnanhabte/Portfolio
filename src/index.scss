@@ -25,7 +25,7 @@ $Fonts-color : ("dim" : #C7C3C3,
   "blue" : #FA3B11,
   "footer" : #db9405);
 $BG-color : ("dim" : #a2895df2,
-  "black" : #111110,
+  "black" : #0d0d0c,
   "nav" : #ffffff,
   "white" : #000000,
   "light" : #c3c2c2,
@@ -57,7 +57,7 @@ html>body {
   overflow-x: hidden;
   overflow-y: scroll;
   background: url(./images/noise.png) no-repeat center center / 110% border-box, map-get($BG-color, "white");
- 
+
 
   &::-webkit-scrollbar {
     display: none;
@@ -68,10 +68,11 @@ html>body {
 .Header-Container {
   @include size(100%, max-content);
   background: map-get($BG-color, "dim");
+  background: #545353;
 
   &>.Header-wrapper {
     @include size(100%, max-content);
-    border-bottom: 2px solid #272727;
+    border-bottom: 1px solid #151515;
 
     &>.top-info>ul {
       margin: 0;
@@ -111,7 +112,6 @@ html>body {
             @include size(89px, 3px);
             background: map-get($BG-color, "white");
             display: inline-block;
-            cursor: pointer;
             background: url(./images/noise.png) no-repeat center center / 110% border-box, map-get($BG-color, "white");
           }
 
@@ -133,27 +133,17 @@ html>body {
             &:hover {
               color: #1d1d1d;
               transition: all .4s linear;
+              text-decoration: line-through
             }
           }
 
-          .light-mode {
-            @include size(25px, 25px);
-            background: map-get($BG-color, "nav");
-            position: relative;
-            top: -3px;
-            border-radius: 100px;
-            cursor: pointer;
-          }
+
         }
-
-
       }
 
     }
 
-
   }
-
 
 }
 
@@ -162,6 +152,7 @@ html>body {
   background: map-get($BG-color, "dim");
   padding: 2.5rem;
   box-sizing: border-box;
+  background: #8c2a06;
 
   .bg-clr {
     @include size(100%, 400px);
@@ -169,7 +160,7 @@ html>body {
     z-index: 1;
     transform: translate(-40px, -150px);
     background: map-get($BG-color, "radial");
-    background: radial-gradient(circle at center 100%, transparent, #756604 10%, #400a377e, transparent);
+    background: radial-gradient(circle at center 100%, transparent, #903403 10%, #7820037e, transparent);
   }
 
   &>nav {
@@ -317,3 +308,4 @@ html>body {
 @import "./public/mediaquery";
 @import "./public/about";
 @import "./public/project";
+@import "./public/notfound";

@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 export default function Header() {
+
   return (
     <div className='Header-Container'>
       <div className='Header-wrapper'>
@@ -31,7 +31,6 @@ export default function Header() {
               <span className="link3">
               <Link to="https://github.com/Fnanhabte" target='_blank' rel='noopener noreferrer' >GH</Link>
               </span>
-              <div className="light-mode"></div>
               </div>
             </li>
           </ul>

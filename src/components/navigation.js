@@ -24,7 +24,7 @@ export default function Navigation() {
               <Link to="/project">Project</Link>
             </li>
             <li>
-              <Link to="/resume">Resume</Link>
+            <Link to="https://drive.google.com/file/d/1XuufTYjnrtrXAXcuV__RRQTcZ6QFLSCE/view?usp=drive_link" target='_blank'>Resume</Link>
             </li>
             <li onClick={handlContactLink}>
                Contact

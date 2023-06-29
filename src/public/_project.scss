@@ -1,7 +1,7 @@
 $Fonts-color : ("dim" : #C7C3C3,
-   "black" : #111111,
+   "black" : #c05005,
    "light" : #d5d5d5,
-   "white" : #8e8b8a,
+   "white" : #bcb9b8,
    "grey" : #383838,
    "red" : rgb(186, 186, 185),
    "blue" : #FA3B11,
@@ -10,10 +10,10 @@ $BG-color : ("dim" : #a2895df2,
    "black" : #161515,
    "footer" : #924200,
    "nav" : #1c1b1b,
-   "white" : #121212,
-   "bright" : #7e2a07,
+   "white" : #801515,
+   "bright" : #2b2725,
    "light" : #c3c2c2,
-   "radial" : #c06a01,
+   "radial" : #1e1e1e,
    "empty" : #ffffff00,
    "red" : #1f4975);
 
@@ -33,7 +33,7 @@ $BG-color : ("dim" : #a2895df2,
 }
 
 .project-container {
-   background: map-get($BG-color, "bright");
+   background: map-get($BG-color, "white");
    @include size(100%, 100vh);
 
    .rout-links {
@@ -72,6 +72,7 @@ $BG-color : ("dim" : #a2895df2,
       background:map-get($BG-color, "radial");
       padding-left: 3rem;
       box-sizing: border-box;
+      color: map-get($Fonts-color, "black" );
 
       &>h4 {
          margin: 0;
@@ -118,7 +119,7 @@ $BG-color : ("dim" : #a2895df2,
       @include size(100%, max-content);
       @include flex(row wrap, center, 100%, 5rem, 0);
       box-sizing: border-box;
-      background:map-get($BG-color, "bright");
+      background: map-get($BG-color, "white");
 
       &>.col {
          padding: 2rem 2.5rem;
@@ -133,31 +134,43 @@ $BG-color : ("dim" : #a2895df2,
             padding: 2rem;
             box-sizing: border-box;
 
-            &>img {
-               @include size(100%, 100%);
-               cursor: pointer;
+            & > a {
+               &>img {
+                  @include size(100%, 100%);
+                  cursor: pointer;
+               }
+
             }
          }
 
          .work-info {
             @include size(200px, max-content);
 
+            .text {
+               @include size(230px, max-content);
+               color: map-get($Fonts-color, "white");
+            }
+
             &>.number {
                color: map-get($Fonts-color, "white");
                font: normal 200 7rem bloverly;
             }
+            & >a {
+               text-decoration: none;
+               &>P {
+                  font-size: 1.3rem;
+                  font-family: bloverly;
+                  color: map-get($Fonts-color, "white");
+                  cursor: pointer;
 
-            &>P {
-               font-size: 1.3rem;
-               font-family: bloverly;
-               color: map-get($Fonts-color, "white");
-               cursor: pointer;
-
-               &:hover {
-                  color: #e5e4e4;
-                  transition: all .5s linear;
+                  &:hover {
+                     color: #e5e4e4;
+                     transition: all .5s linear;
+                  }
                }
+
             }
+
          }
 
 
