@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/fnandev/static/css/main.c53e241f.css",
-    "main.js": "/fnandev/static/js/main.16b405d7.js",
-    "static/media/nature.mp4": "/fnandev/static/media/nature.34a5667a998c5460a609.mp4",
-    "static/media/noise.png": "/fnandev/static/media/noise.70b51c65d67816f5c0d8.png",
-    "static/media/light.png": "/fnandev/static/media/light.c1fe2094e7d14c384114.png",
-    "static/media/Adidas.png": "/fnandev/static/media/Adidas.068e99d24ce55cf066c0.png",
-    "static/media/work.png": "/fnandev/static/media/work.2832513eecd07ef668e1.png",
-    "static/media/fnan.jpeg": "/fnandev/static/media/fnan.1232f45d7474ef087226.jpeg",
-    "static/media/pro.png": "/fnandev/static/media/pro.49d947432574cb7ce1bd.png",
-    "static/media/bloverly.otf": "/fnandev/static/media/bloverly.0328bd3e57f64ba778ec.otf",
-    "static/media/inclusivesans-regular.otf": "/fnandev/static/media/inclusivesans-regular.c5c9bbfc4c86890fad70.otf",
-    "static/media/TuskerGrotesk-1600Semibold.otf": "/fnandev/static/media/TuskerGrotesk-1600Semibold.74d2057761f3801329cf.otf",
-    "static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.otf": "/fnandev/static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.fb232e793850e2ccd8a6.otf",
-    "index.html": "/fnandev/index.html",
-    "main.c53e241f.css.map": "/fnandev/static/css/main.c53e241f.css.map",
-    "main.16b405d7.js.map": "/fnandev/static/js/main.16b405d7.js.map"
+    "main.css": "/Portfolio/static/css/main.33b6abc7.css",
+    "main.js": "/Portfolio/static/js/main.148893f2.js",
+    "static/media/nature.mp4": "/Portfolio/static/media/nature.34a5667a998c5460a609.mp4",
+    "static/media/noise.png": "/Portfolio/static/media/noise.70b51c65d67816f5c0d8.png",
+    "static/media/light.png": "/Portfolio/static/media/light.c1fe2094e7d14c384114.png",
+    "static/media/Adidas.png": "/Portfolio/static/media/Adidas.068e99d24ce55cf066c0.png",
+    "static/media/work.png": "/Portfolio/static/media/work.2832513eecd07ef668e1.png",
+    "static/media/fnan.jpeg": "/Portfolio/static/media/fnan.1232f45d7474ef087226.jpeg",
+    "static/media/pro.png": "/Portfolio/static/media/pro.49d947432574cb7ce1bd.png",
+    "static/media/bloverly.otf": "/Portfolio/static/media/bloverly.0328bd3e57f64ba778ec.otf",
+    "static/media/inclusivesans-regular.otf": "/Portfolio/static/media/inclusivesans-regular.c5c9bbfc4c86890fad70.otf",
+    "static/media/TuskerGrotesk-1600Semibold.otf": "/Portfolio/static/media/TuskerGrotesk-1600Semibold.74d2057761f3801329cf.otf",
+    "static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.otf": "/Portfolio/static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.fb232e793850e2ccd8a6.otf",
+    "index.html": "/Portfolio/index.html",
+    "main.33b6abc7.css.map": "/Portfolio/static/css/main.33b6abc7.css.map",
+    "main.148893f2.js.map": "/Portfolio/static/js/main.148893f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c53e241f.css",
-    "static/js/main.16b405d7.js"
+    "static/css/main.33b6abc7.css",
+    "static/js/main.148893f2.js"
   ]
 }
