@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.7e2e3233.css",
-    "main.js": "/my-app/static/js/main.4cf72140.js",
-    "static/media/nature.mp4": "/my-app/static/media/nature.edede225c69d2124960d.mp4",
+    "main.css": "/my-app/static/css/main.bf50aa4d.css",
+    "main.js": "/my-app/static/js/main.f0571add.js",
+    "static/media/nature.mp4": "/my-app/static/media/nature.34a5667a998c5460a609.mp4",
     "static/media/noise.png": "/my-app/static/media/noise.70b51c65d67816f5c0d8.png",
     "static/media/light.png": "/my-app/static/media/light.c1fe2094e7d14c384114.png",
     "static/media/Adidas.png": "/my-app/static/media/Adidas.068e99d24ce55cf066c0.png",
@@ -14,11 +14,11 @@
     "static/media/TuskerGrotesk-1600Semibold.otf": "/my-app/static/media/TuskerGrotesk-1600Semibold.74d2057761f3801329cf.otf",
     "static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.otf": "/my-app/static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.fb232e793850e2ccd8a6.otf",
     "index.html": "/my-app/index.html",
-    "main.7e2e3233.css.map": "/my-app/static/css/main.7e2e3233.css.map",
-    "main.4cf72140.js.map": "/my-app/static/js/main.4cf72140.js.map"
+    "main.bf50aa4d.css.map": "/my-app/static/css/main.bf50aa4d.css.map",
+    "main.f0571add.js.map": "/my-app/static/js/main.f0571add.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e2e3233.css",
-    "static/js/main.4cf72140.js"
+    "static/css/main.bf50aa4d.css",
+    "static/js/main.f0571add.js"
   ]
 }
