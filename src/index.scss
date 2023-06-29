@@ -216,8 +216,9 @@ html>body {
         line-height: 2em;
         margin: 0;
         color: map-get($Fonts-color, "dim");
-        font-size: 16.7px;
+        font-size: 18.5px;
         font-family: 'Times New Roman', Times, serif;
+        color: #a08b81;
 
         &>.myemail {
           color: map-get($Fonts-color, "footer");

@@ -146,7 +146,7 @@ $BG-color : ("dim" : #a2895df2,
             box-sizing: border-box;
             display: inline-block;
             background: rgb(202, 202, 202);
-            border-radius: 500px;
+            border-radius: 5px;
             padding: 1px;
             margin-right: 1rem;
 
@@ -154,7 +154,7 @@ $BG-color : ("dim" : #a2895df2,
                object-fit: cover;
                object-position: center;
                @include size(100%, 100%);
-               border-radius: 500px;
+               border-radius: 5px;
             }
          }
 
