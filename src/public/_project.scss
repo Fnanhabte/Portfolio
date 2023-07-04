@@ -35,15 +35,16 @@ $BG-color : ("dim" : #a2895df2,
 .project-container {
    background: map-get($BG-color, "white");
    @include size(100%, 100vh);
+   overflow-x: hidden;
 
    .rout-links {
       position: relative;
-      padding: 0.30rem;
+      padding: 0.10rem;
       box-sizing: border-box;
 
       & > ul {
          @include flex(row,space-between, 100%,0rem ,0 );
-         padding-inline: 5rem 5rem;
+         padding-inline: 2rem 2rem;
          box-sizing: border-box;
          & > li{
             list-style: none;
@@ -73,6 +74,7 @@ $BG-color : ("dim" : #a2895df2,
       padding-left: 3rem;
       box-sizing: border-box;
       color: map-get($Fonts-color, "black" );
+      overflow: hidden;
 
       &>h4 {
          margin: 0;
@@ -279,6 +281,7 @@ $BG-color : ("dim" : #a2895df2,
                &:hover {
                   color: #c96502;
                   transition: all .4s linear;
+                  text-decoration:line-through;
                }
             }
          }

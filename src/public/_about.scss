@@ -72,18 +72,6 @@ $BG-color : ("dim" : #a2895df2,
                font: normal 100 15px inclusiv;
             }
 
-            &>.left {
-               background: url(../icon/iconmonstr-angel-left-thin-240.png) no-repeat center center / contain border-box;
-               padding: 0.50rem;
-               margin-inline-end: 40px;
-            }
-
-            &>.right {
-               background: url(../icon/iconmonstr-angel-right-thin-240.png) no-repeat center center / contain border-box;
-               padding: 0.50rem;
-               margin-inline-start: 40px;
-
-            }
          }
       }
    }
@@ -271,7 +259,7 @@ $BG-color : ("dim" : #a2895df2,
       }
 
       .footer-policy {
-         font-size: 14px;
+         font-size: 12.7px;
          margin-top: 1.6rem;
          color:#b4b4b4;
          text-transform: uppercase;

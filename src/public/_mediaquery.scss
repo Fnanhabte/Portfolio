@@ -331,6 +331,8 @@
 
 
       .Header-Container {
+         background: #7c7b79;
+
          &>.Header-wrapper>.top-info>ul {
             @include flex(row, space-between, 100%, 2rem, 0);
             transition: all .5s linear;
@@ -365,30 +367,6 @@
                         transition: all .4s linear;
                      }
                   }
-
-                  .light-mode {
-                     @include size(70px, 30px);
-                     background: map-get($BG-color, "nav");
-                     box-shadow: 2px 2px 10px #000000b6;
-                     position: relative;
-                     top: -9px;
-                     border-radius: 100px;
-                     cursor: pointer;
-
-                     .light-on {
-                        @include size(35px, 25px);
-                        background: map-get($BG-color, "light");
-                        border-radius: 100px;
-                        position: relative;
-                        top: 2.2px;
-                        float: right;
-                        margin-right: 4px;
-                        cursor: pointer;
-
-
-
-                     }
-                  }
                }
             }
 
@@ -399,41 +377,58 @@
       }
 
       .navigation-wrapper {
-         padding: 2.5rem 0;
-         background: #000;
+         padding: 2.8rem 0;
+         background: #8b8a89;
          transition: all .5s linear;
+
+         & > nav ul li  {
+            font: normal 200 14.3px bloverly;
+         }
+         & > nav ul li > a {
+            font: normal 200 14.3px bloverly;
+         }
 
          .bg-clr {
             transform: translate(0px, -150px);
-
          }
 
          .about-wrapper {
-            background: url(../images/noise.png) no-repeat center center / 200% border-box, map-get($BG-color, "white");
+            @include size(100%, max-content);
+            background: url(../images/noise.png) no-repeat center center / 240% border-box, map-get($BG-color, "white");
 
             &>.intro {
-               @include size(387px, 140px);
+               @include size(387px, max-content);
                transition: all .5s linear;
-               padding: 4rem 1.4rem;
+               padding: 9.1rem 1.4rem;
+               &>p  {
+                  text-align: center;
+                  font-size: 17px;
+               }
             }
          }
 
       }
 
       .anim-wrapper {
-         @include size(100%, 120px);
+         @include size(100%, max-content);
 
          &>.quotes>h1 {
-            font: normal 200 12rem bloverly;
+            position: relative;
+            font: normal 200 12.1rem bloverly;
+            letter-spacing: 5px;
+            top: 20px;
          }
       }
 
       #footer-wrapp {
          @include size(100%, 230px);
+         background: url(../images/noise.png) no-repeat center center / 150% border-box, map-get($BG-color, "white");
 
          &>#footer {
             &>p {
                top: -55px;
+               font: normal 200 12px bloverly;
+               text-transform: uppercase;
             }
          }
       }
@@ -622,6 +617,8 @@
 
 
       .Header-Container {
+         background: #7c7b79;
+
          &>.Header-wrapper>.top-info>ul {
             @include flex(row, space-between, 100%, 2rem, 0);
             transition: all .5s linear;
@@ -647,37 +644,13 @@
                   &>.link1,
                   .link2,
                   .link3 {
-                     font: normal 200 1rem bloverly;
+                     font: normal 200 1.1rem bloverly;
                      letter-spacing: 1px;
                      cursor: pointer;
 
                      &:hover {
                         color: #1d1d1d;
                         transition: all .4s linear;
-                     }
-                  }
-
-                  .light-mode {
-                     @include size(70px, 30px);
-                     background: map-get($BG-color, "nav");
-                     box-shadow: 2px 2px 10px #000000b6;
-                     position: relative;
-                     top: -9px;
-                     border-radius: 100px;
-                     cursor: pointer;
-
-                     .light-on {
-                        @include size(35px, 25px);
-                        background: map-get($BG-color, "light");
-                        border-radius: 100px;
-                        position: relative;
-                        top: 2.2px;
-                        float: right;
-                        margin-right: 4px;
-                        cursor: pointer;
-
-
-
                      }
                   }
                }
@@ -690,46 +663,61 @@
       }
 
       .navigation-wrapper {
-         padding: 2.5rem 0;
-         background: #000;
+         padding: 2.8rem 0;
+         background: #8b8a89;
          transition: all .5s linear;
+
+         & > nav ul li  {
+            font: normal 200 14.3px bloverly;
+         }
+         & > nav ul li > a {
+            font: normal 200 14.3px bloverly;
+         }
 
          .bg-clr {
             transform: translate(0px, -150px);
-
          }
 
          .about-wrapper {
-            background: url(../images/noise.png) no-repeat center center / 200% border-box, map-get($BG-color, "white");
+            @include size(100%, max-content);
+            background: url(../images/noise.png) no-repeat center center / 350% border-box, map-get($BG-color, "white");
 
             &>.intro {
-               @include size(330px, 140px);
+               @include size(334px, max-content);
                transition: all .5s linear;
-               padding: 4rem 1.4rem;
-               text-align: center
+               padding: 9.4rem 1.4rem;
+               &>p  {
+                  text-align: center;
+                  font-size: 17px;
+               }
             }
          }
 
       }
 
       .anim-wrapper {
-         @include size(100%, 120px);
+         @include size(100%, max-content);
 
          &>.quotes>h1 {
-            font: normal 200 12rem bloverly;
+            position: relative;
+            font: normal 200 12.1rem bloverly;
+            letter-spacing: 5px;
+            top: 20px;
          }
       }
 
       #footer-wrapp {
-         @include size(100%, 130px);
+         @include size(100%, 230px);
+         background: url(../images/noise.png) no-repeat center center / 150% border-box, map-get($BG-color, "white");
 
          &>#footer {
             &>p {
                top: -55px;
+               font: normal 200 12px bloverly;
+               text-transform: uppercase;
             }
          }
       }
-
       .About-container {
 
          .routes>.returns {
@@ -815,13 +803,32 @@
 
       .project-container {
 
-         .header-wrapper {
-            padding: 2.6rem 3rem;
+
+         .quote-animation {
+            @include flex(row, flex-start, 100%, 0rem, 0);
+            align-items: center;
+            @include size(100%, max-content);
+            padding-left: 3rem;
             box-sizing: border-box;
 
+
+            &>h4 {
+               margin: 0;
+               font: normal 200 4rem merlux;
+               text-transform: uppercase;
+               white-space: nowrap;
+               animation: quote 50s linear infinite;
+            }
+         }
+
+         .header-wrapper {
+            padding: 1.5rem 3rem;
+            box-sizing: border-box;
+            @include size(100%, 350px);
          }
 
          .project-wrapper {
+
             &>.col {
                padding: 7rem 0rem;
                @include flex(row wrap, center, 100%, 3rem, 0);
@@ -850,7 +857,7 @@
 
 
                &>p {
-                  font-size: 19px;
+                  font-size: 18px;
                   line-height: 1.7rem;
                   font-family: merlux;
                   cursor: pointer;
