@@ -69,9 +69,10 @@ $BG-color : ("dim" : #a2895df2,
       .footer {
          & > p {
             text-align: center;
-            font-size: 13.7px;
+            font-size: 12.7px;
             font-family: bloverly;
             line-height: 1.8em;
+            text-transform: uppercase;
             color: #747372;
          }
       }
