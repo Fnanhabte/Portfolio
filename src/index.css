@@ -256,9 +256,10 @@ html > body::-webkit-scrollbar {
   background: url(./images/noise.png) no-repeat center center/110% border-box, #000000;
 }
 .footer-wrapper > .footer > p {
-  font: normal 200 14px bloverly;
+  font: normal 200 12px bloverly;
   cursor: pointer;
   color: #C7C3C3;
+  text-transform: uppercase;
   text-align: center;
   position: relative;
   top: -7px;

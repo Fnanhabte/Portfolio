@@ -278,9 +278,10 @@ html>body {
 
   &>.footer {
     &>p {
-      font: normal 200 14px bloverly;
+      font: normal 200 12px bloverly;
       cursor: pointer;
       color: map-get($Fonts-color, "dim");
+      text-transform: uppercase;
       text-align: center;
       position: relative;
       top: -7px;
