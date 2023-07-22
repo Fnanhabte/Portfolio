@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./src/images/devlogo.png" width="100">
+<img src="./src/images/devlogo.png" width="100" height="100">
 </div>
 <h1>Programming and Design from the Future</h1>
 <p>FNANDEV is bringing you programming and design from the future.

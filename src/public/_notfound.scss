@@ -1,6 +1,6 @@
 $Fonts-color : ("dim" : #C7C3C3,
-   "black" : #fc6602,
-   "light" : #978445);
+   "black" : #d88240,
+   "light" : #e6dfc6);
 $BG-color : ("dim" : #a2895df2,
    "black" : #161a19,
    );
@@ -23,7 +23,7 @@ $BG-color : ("dim" : #a2895df2,
 
 
 .pagenotfound {
-      background: map-get($BG-color, "black" );
+   background: linear-gradient(to bottom, #3f191978, #3c44131f, #000000);
       @include size(100%,100vh );
       @include flex(row wrap, center, 100%, 0rem, 0);
       align-items: center;
@@ -36,13 +36,14 @@ $BG-color : ("dim" : #a2895df2,
          & > h1 {
             text-align: center;
             margin: 0;
-            font: italic 400 14rem bloverly;
+            font: normal 400 14rem bloverly;
             color: map-get($Fonts-color, "light");
+            margin-bottom: 7rem;
          }
 
          &>p {
             text-align: center;
-            font-size: 17.2px;
+            font-size: 14.2px;
             font-family: bloverly;
             line-height: 1.8em;
             color: map-get($Fonts-color, "light");
@@ -50,7 +51,7 @@ $BG-color : ("dim" : #a2895df2,
             & > a {
                padding: 0.60rem 2rem;
                box-sizing: border-box;
-               font: normal 200 0.96rem bloverly;
+               font: normal 200 14px bloverly;
                border-radius: 13px;
                border-color: transparent;
                cursor: pointer;

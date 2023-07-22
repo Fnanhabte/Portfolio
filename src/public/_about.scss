@@ -38,30 +38,25 @@ $BG-color : ("dim" : #a2895df2,
 
 
 .About-container {
-   background: map-get($BG-color, "white");
    @include flex(row wrap, flex-start, 100%, 0rem, 0);
    @include size(100%, max-content);
    overflow: hidden;
+   background: linear-gradient(#afaf2635, #000000, #000);
+
 
    .routes {
-      @include size(100%, max-content);
-      background: #070707;
+      @include size(100%, 300px);
+      background: linear-gradient(to bottom, #00000090, #3c441336, #00000078);
+      animation: change 30s linear infinite;
+      transition: animation .10s linear;
+      animation-duration: 30s;
 
-      .bg-video {
-         @include size(100%,200px );
 
-         & > .video {
-            object-fit: cover;
-            object-position: center;
-            @include size(100%, 100%);
-         }
-      }
       &>.returns {
          @include flex(row, space-between, 100%, 0rem, 0);
          padding-inline: 5rem 5rem;
          box-sizing: border-box;
-         background: map-get($BG-color, "nav");
-         background: #070707;
+
 
          P {
 
@@ -69,21 +64,51 @@ $BG-color : ("dim" : #a2895df2,
                text-decoration: none;
                cursor: pointer;
                color: map-get($Fonts-color, "light");
-               font: normal 100 15px inclusiv;
+               font: normal 100 13px bloverly;
+               text-transform: uppercase;
+               letter-spacing: 3px;
+
+               &:hover {
+                  color: #cdc9c9;
+                  transition: all .3s linear;
+               }
             }
 
          }
       }
    }
 
+   @keyframes change {
+
+      0%{
+         background: linear-gradient(to bottom, #00000090, #13441a36, #00000078);
+         transition: 3s linear;
+      }
+      20%{
+         background: linear-gradient(to bottom, #00000090, #443a1336, #00000078);
+         transition: 3s linear;
+      }
+      50%{
+         background: linear-gradient(to bottom, #00000090, #131c4436, #00000078);
+         transition: 3s linear;
+      }
+      70%{
+         background: linear-gradient(to bottom, #00000090, #15433c36, #00000078);
+         transition: 3s linear;
+      }
+      100%{
+         background: linear-gradient(to bottom, #00000090, #32134436, #00000078);
+         transition: 3s linear;
+      }
+   }
+
    &>.conatiner-1 {
+      @include size(100%,max-content );
       flex-basis: 100%;
-      padding: 5rem 5rem;
+      padding: 8rem 5rem;
       box-sizing: border-box;
       background: map-get($BG-color, "black");
-      background: linear-gradient(to left, #00000078, #000000d8, #000), url(../images/light.png) no-repeat center center / cover border-box;
-
-
+      background: linear-gradient(to bottom, #00000078, #000000d8, #000);
 
       &>.header-banner {
          @include size(100%, max-content);
@@ -207,12 +232,19 @@ $BG-color : ("dim" : #a2895df2,
 
    &>.conatiner-2 {
       @include size(100%, max-content);
-      background: map-get($BG-color, "white");
       @include flex(column, center, 100%, 0rem, 0);
       align-items: center;
-      padding: 3rem 8rem;
+      padding: 1rem 8rem;
       box-sizing: border-box;
-      border: 1px solid #978445;
+      background: linear-gradient(to top, #afaf2629, #60141481, #000000);
+      position: relative;
+
+      & > .bg-image {
+      @include size(100%, max-content);
+      position: relative;
+      background: #3f3e3e;
+   }
+
 
       &::-webkit-scrollbar {
          display: none;

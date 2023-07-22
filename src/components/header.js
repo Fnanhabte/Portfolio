@@ -13,13 +13,7 @@ export default function Header() {
               Fnan habte UI / UX
               </h3>
             </li>
-            <li>
-              <div className="dash-wrapper">
-              <span className="dash1"></span>
-              <span className="dash2"></span>
-              <span className="dash3"></span>
-              </div>
-            </li>
+         
             <li>
               <div className="links-wrapper">
               <span className="link1">

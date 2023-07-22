@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import Home from '../components/Home'
 import Project from "../pages/Projects"
 import myImge from "../images/fnan.jpeg"
-import video from "../images/nature.mp4"
+// import video from "../images/nature.mp4"
 
 export default function About() {
 
@@ -17,25 +17,13 @@ export default function About() {
            </p>
           <p> <Link to='/project' element={<Project/>}>Project</Link>  <span className='right'></span></p>
         </div>
-        <div className="bg-video">
-        <video
-      src={video}
-      autoPlay
-      loop
-      muted
-      playsInline
-      className='video'
-    >
-      Sorry, your browser doesn't support embedded videos.
-    </video>
-        </div>
       </div>
       <div className="conatiner-1">
         <div className="header-banner">
           <div className="text-info">
             <div className="detail">
               <span className="feild">My Story</span>
-              <span className="time">5 min read</span>
+              <span className="time">3 min read</span>
             </div>
             <div className="main-topic">
               <h1><span className='topic'>From Curiosity to Code &mdash; </span>  My Path to Becoming a Software Engineer.</h1>

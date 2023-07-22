@@ -8,7 +8,7 @@ export default function PagenotFound() {
       <div className="pagenotfound" id='pagenotfound'>
         <div className="page-wrapper">
           <h1>
-            404.
+            ERR.
           </h1>
           <p className='first-text'>Page not found</p>
           <p>The page you are looking for does not exist.</p>

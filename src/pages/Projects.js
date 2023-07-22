@@ -1,16 +1,13 @@
 import React from 'react'
 import Adidas from '../images/Adidas.png'
-import pro from '../images/pro.png'
-import work from '../images/work.png'
+import thePlaxe from '../images/THE-PLAXE.png'
+import Steppara from '../images/steppara-banner.png'
 import { Link } from 'react-router-dom'
 import Home from '../components/Home'
 import About from '../components/about'
 
 
 export default function Projects() {
-  const handlContactLink = () => {
-    window.location.href = 'mailto:fnandev@gmail.com';
- }
 
   return (
     <div className='project-container'>
@@ -78,25 +75,32 @@ export default function Projects() {
 
         <div className="col work2">
           <div className="project">
-          <Link to='https://fnanhabte.github.io/adidas/' target='_blank'>
-            <img src={pro} alt="project-1" />
+          <Link to='https://fnanhabte.github.io/plaxe/' target='_blank'>
+            <img src={thePlaxe} alt="project-1" />
             </Link>
           </div>
           <div className="work-info">
             <span className="number">2 .</span>
-             <p>Furniture Agency</p>
+            <Link to='https://fnanhabte.github.io/plaxe/' target='_blank'>
+            <p>The Plaxe official site</p>
+            </Link>
+             <p className='text'>The future of travel is here.The Plaxe, a visionary hotel website that transports you to a world of awe-inspiring innovation and futuristic design. Discover a captivating escape like no other, where cutting-edge technology meets unrivaled luxury.</p>
           </div>
         </div>
 
         <div className="col work3">
           <div className="project">
-          <Link to='https://fnanhabte.github.io/adidas/' target='_blank'>
-            <img src={work} alt="project-1" />
+          <Link to='https://fnanhabte.github.io/Steppara/' target='_blank'>
+            <img src={Steppara} alt="project-1" />
             </Link>
           </div>
           <div className="work-info">
             <span className="number">3 .</span>
-             <p>Furniture Agency</p>
+            <Link to='https://fnanhabte.github.io/plaxe/' target='_blank'>
+            <p> Steppara official site</p>
+            </Link>
+            <p className='text'> Explore the new Steppara's collection online. Discover the latest trends for Women, Men, and Kids, along with sneak peeks of next season's ad campaigns. Elevate your style with our exquisite and empowering fashion offerings.</p>
+
           </div>
         </div>
 
@@ -106,14 +110,6 @@ export default function Projects() {
               <p>
               I have been involved in various projects that have allowed me to showcase my skills and expertise. These projects have been diverse in nature, encompassing different areas of interest. Each project has provided valuable learning experiences and opportunities for growth.
               </p>
-          </div>
-          <div className="connection">
-            <p onClick={handlContactLink}>
-              connect with me <span className='hide-text'>
-                &mdash; connect with me &mdash; connect with me &mdash; connect with me &mdash; connect with me
-                &mdash; connect with me 
-              </span>
-            </p>
           </div>
       </div>
       <div className="social-footer">
