@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6d8914e7.css",
-    "main.js": "/static/js/main.364c4257.js",
+    "main.js": "/static/js/main.cbccb523.js",
     "static/media/THE-PLAXE.png": "/static/media/THE-PLAXE.a44e85e4a3cb6a6588c3.png",
     "static/media/Adidas.png": "/static/media/Adidas.068e99d24ce55cf066c0.png",
     "static/media/steppara-banner.png": "/static/media/steppara-banner.20facc5d9e3ac7f828ad.png",
@@ -12,10 +12,10 @@
     "static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.otf": "/static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.fb232e793850e2ccd8a6.otf",
     "index.html": "/index.html",
     "main.6d8914e7.css.map": "/static/css/main.6d8914e7.css.map",
-    "main.364c4257.js.map": "/static/js/main.364c4257.js.map"
+    "main.cbccb523.js.map": "/static/js/main.cbccb523.js.map"
   },
   "entrypoints": [
     "static/css/main.6d8914e7.css",
-    "static/js/main.364c4257.js"
+    "static/js/main.cbccb523.js"
   ]
 }
