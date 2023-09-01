@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.93d9cdb5.css",
-    "main.js": "/static/js/main.e827acbb.js",
+    "main.css": "/static/css/main.2a2de2ec.css",
+    "main.js": "/static/js/main.a72e7c25.js",
     "static/media/THE-PLAXE.png": "/static/media/THE-PLAXE.a44e85e4a3cb6a6588c3.png",
+    "static/media/SF-Compact-Display-Light.ttf": "/static/media/SF-Compact-Display-Light.e89b6ff38b9ec2adde3e.ttf",
     "static/media/Adidas.png": "/static/media/Adidas.068e99d24ce55cf066c0.png",
     "static/media/steppara-banner.png": "/static/media/steppara-banner.20facc5d9e3ac7f828ad.png",
     "static/media/fnan.jpeg": "/static/media/fnan.1232f45d7474ef087226.jpeg",
@@ -12,11 +13,11 @@
     "static/media/TuskerGrotesk-1600Semibold.otf": "/static/media/TuskerGrotesk-1600Semibold.74d2057761f3801329cf.otf",
     "static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.otf": "/static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.fb232e793850e2ccd8a6.otf",
     "index.html": "/index.html",
-    "main.93d9cdb5.css.map": "/static/css/main.93d9cdb5.css.map",
-    "main.e827acbb.js.map": "/static/js/main.e827acbb.js.map"
+    "main.2a2de2ec.css.map": "/static/css/main.2a2de2ec.css.map",
+    "main.a72e7c25.js.map": "/static/js/main.a72e7c25.js.map"
   },
   "entrypoints": [
-    "static/css/main.93d9cdb5.css",
-    "static/js/main.e827acbb.js"
+    "static/css/main.2a2de2ec.css",
+    "static/js/main.a72e7c25.js"
   ]
 }
