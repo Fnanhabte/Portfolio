@@ -45,11 +45,11 @@ export default function Projects() {
       <div className="header-wrapper">
         <div className="information">
           <p className='first-info'>
-            This is a showcase of my best work in a variety of fields, from Graphic and Web Design to building efficient, maintainable, and user-friendly.
+            This is a showcase of my works in a variety of fields, from Graphic and Web Design to building efficient, maintainable, and user-friendly application.
           </p>
 
           <p>
-            The world of Digital Design has grown at an extremely rapid rate over the last 5 years and my aim has been to evolve with it. I’m learning and gaining new skills every day.
+            The Digital world of tech has grown at an extremely rapid rate over the last 10 years and my aim has been to evolve with it. I’m learning and gaining new skills every day. The sky has no limits, and neither should I.
           </p>
         </div>
       </div>

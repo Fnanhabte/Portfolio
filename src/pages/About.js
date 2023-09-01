@@ -79,7 +79,7 @@ export default function About() {
           </p>
           <h4 className="resume">
             <button className='cv'>
-              <Link to="https://drive.google.com/file/d/1JrPwU9tN16EZTCGJXnfkI4O4TPreMMW4/view?usp=sharing" target='_blank'>Resume</Link>
+              <Link to="https://drive.google.com/file/d/1t84gIpXB5fGuPbR-ytMzSu-qO8yWKR1s/view?usp=drive_link" target='_blank'>Resume</Link>
             </button>
           </h4>
           <small className='footer-policy'>© 2023 Designed & Developed by Fnan. All right reserved.</small>

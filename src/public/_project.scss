@@ -121,9 +121,10 @@ $BG-color : ("dim" : #a2895df2,
          @include size(450px, 110px);
 
          &>p {
-            font: normal 100 13.7px inclusiv;
+            font: normal 100 14.7px inclusiv;
             line-height: 1.7em;
             color: map-get($Fonts-color, "white");
+
 
          }
       }
@@ -196,24 +197,25 @@ $BG-color : ("dim" : #a2895df2,
 
    .project-footer {
       @include size(100%, 300px);
-      @include flex(row wrap, flex-start, 100%, 23.5rem, 0);
+      @include flex(row wrap, center, 100%, 23.5rem, 0);
       box-sizing: border-box;
       background: map-get($BG-color, "white");
       align-items: center;
       background: linear-gradient(to bottom, #00000078, #3c44131f, #00000090);
+      background: #121212;
 
 
 
       &>.links {
-         @include size(760px, 300px);
+         @include size(1060px, 300px);
          padding: 2rem 10rem;
          box-sizing: border-box;
          background: transparent;
 
          &>p {
-            font-size: 13.9px;
+            font-size: 14px;
             line-height: 1.7rem;
-            font-family: bloverly;
+            font-family: sf;
             text-align: justify;
             text-transform: uppercase;
             color: map-get($Fonts-color, "white");
@@ -283,6 +285,7 @@ $BG-color : ("dim" : #a2895df2,
       padding-inline: 2rem 6rem;
       box-sizing: border-box;
       @include size(100%, 200px);
+
 
 
       &>.social ul {

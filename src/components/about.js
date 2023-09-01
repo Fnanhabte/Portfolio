@@ -8,7 +8,11 @@ export default function About() {
     <div className='about-wrapper'>
       <div className="intro">
          <p>
-         Hello! I'm Fnan Habte, a full-stack developer and UI/UX designer from California. My expertise is developing next-level web applications and translating ideas into engaging and memorable experiences, including full frontend design.<span className="myemail" onClick={handlContactLink}> Lets connect!</span>
+          <span className='name'>
+            Fnan Habte
+          </span>
+      Frontend Developer and UI/UX Designer from California. I develop next level web applications and translate ideas into engaging and memorable experiences.
+       <span className="myemail" onClick={handlContactLink}> Lets connect!</span>
          </p>
       </div>
     </div>

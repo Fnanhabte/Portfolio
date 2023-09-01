@@ -3,6 +3,14 @@
   src: url(./fonts/bloverly.otf);
 }
 @font-face {
+  font-family: sf;
+  src: url(./fonts/SF-Compact-Display-Light.ttf);
+}
+@font-face {
+  font-family: playfair;
+  src: url(./fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
   font-family: tusker;
   src: url(./fonts/TuskerGrotesk-1600Semibold.otf);
 }
@@ -157,23 +165,30 @@ html > body::-webkit-scrollbar {
   flex-basis: 100%;
   gap: 0rem;
   flex-grow: 0;
-  padding: 6rem 4rem;
+  padding: 4rem 4rem;
+}
+.navigation-wrapper .about-wrapper > .intro .name {
+  display: block;
+  color: #C7C3C3;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: sf;
+  color: #d7d7d7;
+  padding-bottom: 1rem;
 }
 .navigation-wrapper .about-wrapper > .intro > p {
-  width: 560px;
+  width: 570px;
   height: 300px;
   line-height: 2em;
   margin: 0;
   color: #C7C3C3;
-  font-size: 15.9px;
-  font-family: "Times New Roman", Times, serif;
-  text-align: justify;
-  text-transform: uppercase;
-  font-family: bloverly;
-  color: #8a876c;
+  font-size: 16px;
+  font-family: sf;
+  color: #bab8a8;
 }
 .navigation-wrapper .about-wrapper > .intro > p > .myemail {
-  color: #b05104;
+  display: block;
+  color: #ea6b02;
   cursor: pointer;
 }
 .navigation-wrapper .about-wrapper > .intro > p > .myemail:hover {
@@ -230,25 +245,16 @@ html > body::-webkit-scrollbar {
   flex-grow: 0;
   align-items: flex-end;
   background: linear-gradient(to bottom, #000000, #000000, rgba(0, 0, 0, 0.9137254902));
+  position: relative;
+  z-index: 888;
 }
 .footer-wrapper > .footer > p {
   font: normal 200 12px bloverly;
-  cursor: pointer;
   color: #C7C3C3;
   text-transform: uppercase;
   text-align: center;
   position: relative;
   top: -7px;
-}
-.footer-wrapper > .footer > p > .copyright {
-  color: #b05104;
-  cursor: pointer;
-}
-.footer-wrapper > .footer > p > .copyright:hover {
-  transition: all 0.5s linear;
-  -webkit-text-decoration: underline 1px #db9405;
-          text-decoration: underline 1px #db9405;
-  text-underline-offset: 5px;
 }
 
 .aboutpage {
@@ -744,14 +750,13 @@ html > body::-webkit-scrollbar {
     background: linear-gradient(to bottom, rgba(9, 11, 9, 0.3647058824), #000000, #000000);
   }
   #body .navigation-wrapper .about-wrapper > .intro {
-    width: 387px;
+    width: 410px;
     height: -moz-max-content;
     height: max-content;
     transition: all 0.5s linear;
     padding: 9.1rem 1.4rem;
   }
   #body .navigation-wrapper .about-wrapper > .intro > p {
-    text-align: justify;
     font-size: 15.5px;
   }
   #body .anim-wrapper {
@@ -1001,7 +1006,6 @@ html > body::-webkit-scrollbar {
     box-sizing: border-box;
   }
   #body .navigation-wrapper .about-wrapper > .intro > p {
-    text-align: justify;
     font-size: 15.5px;
   }
   #body .anim-wrapper {
@@ -1569,7 +1573,7 @@ html > body::-webkit-scrollbar {
   height: 110px;
 }
 .project-container .header-wrapper .information > p {
-  font: normal 100 13.7px inclusiv;
+  font: normal 100 14.7px inclusiv;
   line-height: 1.7em;
   color: #bcb9b8;
 }
@@ -1647,7 +1651,7 @@ html > body::-webkit-scrollbar {
   height: 300px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: center;
   flex-basis: 100%;
   gap: 23.5rem;
   flex-grow: 0;
@@ -1655,18 +1659,19 @@ html > body::-webkit-scrollbar {
   background: #801515;
   align-items: center;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4705882353), rgba(60, 68, 19, 0.1215686275), rgba(0, 0, 0, 0.5647058824));
+  background: #121212;
 }
 .project-container .project-footer > .links {
-  width: 760px;
+  width: 1060px;
   height: 300px;
   padding: 2rem 10rem;
   box-sizing: border-box;
   background: transparent;
 }
 .project-container .project-footer > .links > p {
-  font-size: 13.9px;
+  font-size: 14px;
   line-height: 1.7rem;
-  font-family: bloverly;
+  font-family: sf;
   text-align: justify;
   text-transform: uppercase;
   color: #bcb9b8;

@@ -579,11 +579,10 @@
 
             &>.intro {
 
-               @include size(387px, max-content);
+               @include size(410px, max-content);
                transition: all .5s linear;
                padding: 9.1rem 1.4rem;
                &>p  {
-                  text-align: justify;
                   font-size: 15.5px;
                }
             }
@@ -866,7 +865,6 @@
                padding: 7rem 1.4rem;
                box-sizing: border-box;
                &>p  {
-                  text-align: justify;
                   font-size: 15.5px;
                }
             }
