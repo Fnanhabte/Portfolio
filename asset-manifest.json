@@ -1,10 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad4c2e67.css",
-    "main.js": "/static/js/main.3bf13c49.js",
+    "main.css": "/static/css/main.7f74bf66.css",
+    "main.js": "/static/js/main.4226d86b.js",
     "static/media/THE-PLAXE.png": "/static/media/THE-PLAXE.a44e85e4a3cb6a6588c3.png",
+    "static/media/Sidecup.png": "/static/media/Sidecup.35e9d0154f511c3cdced.png",
+    "static/media/northface.png": "/static/media/northface.ceb6aa45a005b74965b9.png",
+    "static/media/fashincloth.png": "/static/media/fashincloth.c1d10be1695f50f5a421.png",
+    "static/media/shoeapp.png": "/static/media/shoeapp.8d55a2bc0aec1c8684e8.png",
     "static/media/SF-Compact-Display-Light.ttf": "/static/media/SF-Compact-Display-Light.e89b6ff38b9ec2adde3e.ttf",
+    "static/media/Nikestore.png": "/static/media/Nikestore.5463c069189d9a248cc0.png",
+    "static/media/realestate.png": "/static/media/realestate.93c7b6a9236b82d085ca.png",
     "static/media/Adidas.png": "/static/media/Adidas.068e99d24ce55cf066c0.png",
+    "static/media/Shushiman.png": "/static/media/Shushiman.2306df467be9251de417.png",
+    "static/media/SOUNDWAVE.png": "/static/media/SOUNDWAVE.76abdcf8b4a02c80724a.png",
+    "static/media/dazi.png": "/static/media/dazi.f8f99c9cb526f8377791.png",
     "static/media/steppara-banner.png": "/static/media/steppara-banner.20facc5d9e3ac7f828ad.png",
     "static/media/fnan.jpeg": "/static/media/fnan.1232f45d7474ef087226.jpeg",
     "static/media/PlayfairDisplay-Regular.ttf": "/static/media/PlayfairDisplay-Regular.3bab1045bc0f282aa071.ttf",
@@ -13,11 +22,11 @@
     "static/media/TuskerGrotesk-1600Semibold.otf": "/static/media/TuskerGrotesk-1600Semibold.74d2057761f3801329cf.otf",
     "static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.otf": "/static/media/MeriluxDemo-Regular-BF6487df3eeb5b4.fb232e793850e2ccd8a6.otf",
     "index.html": "/index.html",
-    "main.ad4c2e67.css.map": "/static/css/main.ad4c2e67.css.map",
-    "main.3bf13c49.js.map": "/static/js/main.3bf13c49.js.map"
+    "main.7f74bf66.css.map": "/static/css/main.7f74bf66.css.map",
+    "main.4226d86b.js.map": "/static/js/main.4226d86b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad4c2e67.css",
-    "static/js/main.3bf13c49.js"
+    "static/css/main.7f74bf66.css",
+    "static/js/main.4226d86b.js"
   ]
 }
